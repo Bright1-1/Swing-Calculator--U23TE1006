@@ -1,7 +1,6 @@
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
-
 class calculator extends JFrame implements ActionListener {
 	// Create JFrame
 	static JFrame f;
@@ -101,12 +100,12 @@ class calculator extends JFrame implements ActionListener {
 		p.add(beq1);
 
 		// Set background color of panel
-		p.setBackground(Color.blue);
+		p.setBackground(Color.green);
 
 		// Add panel to frame
 		f.add(p);
 
-		f.setSize(200, 220);
+		f.setSize(250, 300);
 		f.setVisible(true);
 	}
 
